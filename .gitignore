@@ -1,3 +1,18 @@
-/Brain_tumor_dataset
-/Brain_tumor_dataset/Testing
-/Brain_tumor_dataset/Training
+# Ignore Python virtual environment
+.venv/
+
+# Ignore dataset folder
+Brain_tumor_dataset/
+
+# Ignore requirements file
+requirements.txt
+
+# Ignore model weights
+best_vit_brain_tumor.pth
+
+# Allow the notebook file and gitignore first
+!.gitignore
+!brain_tumor_vit.ipynb
+
+# Then ignore everything else
+*
