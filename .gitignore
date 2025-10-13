@@ -16,3 +16,5 @@ requirements.txt
 
 # Then ignore everything else
 *
+config.bat
+node_modules
