@@ -4,11 +4,11 @@
 # Ignore dataset folder
 Brain_tumor_dataset/
 
-# Ignore requirements file
-requirements.txt
-
 # Ignore model weights
 best_vit_brain_tumor.pth
+
+# Ignore requirements file
+requirements.txt
 
 # Allow the notebook file and gitignore first
 !.gitignore
